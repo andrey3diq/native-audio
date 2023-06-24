@@ -35,7 +35,7 @@
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
-    "prepare": "husky install"
+    "prepare": "husky install && npm run build"
   },
   "author": "Martin Donadieu <martindonadieu@gmail.com>",
   "license": "MIT",
